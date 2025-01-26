@@ -37,7 +37,7 @@ def draw_bbox_without_labels(frame, bbox):
 
 def detect_objects_and_text():
 
-    genai.configure(api_key="AIzaSyDctFB62JvpOgZ8n9Vuo7bT1KpbGLlsJjE")
+    genai.configure(api_key="API_Key Here")
     model = genai.GenerativeModel("gemini-1.5-flash")
 
     # Initialize PaddleOCR
